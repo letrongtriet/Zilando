@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF18A8FB259CE56F00C7A366 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF18A8FA259CE56F00C7A366 /* AppDelegate.swift */; };
+		CF18A8FD259CE56F00C7A366 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF18A8FC259CE56F00C7A366 /* SceneDelegate.swift */; };
+		CF18A8FF259CE56F00C7A366 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF18A8FE259CE56F00C7A366 /* ViewController.swift */; };
+		CF18A902259CE56F00C7A366 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF18A900259CE56F00C7A366 /* Main.storyboard */; };
+		CF18A904259CE57000C7A366 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF18A903259CE57000C7A366 /* Assets.xcassets */; };
+		CF18A907259CE57000C7A366 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF18A905259CE57000C7A366 /* LaunchScreen.storyboard */; };
+		CF18A912259CE57000C7A366 /* ZilandoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF18A911259CE57000C7A366 /* ZilandoTests.swift */; };
+		CF18A91D259CE57000C7A366 /* ZilandoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF18A91C259CE57000C7A366 /* ZilandoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF18A90E259CE57000C7A366 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF18A8EF259CE56F00C7A366 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF18A8F6259CE56F00C7A366;
+			remoteInfo = Zilando;
+		};
+		CF18A919259CE57000C7A366 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF18A8EF259CE56F00C7A366 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF18A8F6259CE56F00C7A366;
+			remoteInfo = Zilando;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF18A8F7259CE56F00C7A366 /* Zilando.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zilando.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF18A8FA259CE56F00C7A366 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF18A8FC259CE56F00C7A366 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CF18A8FE259CE56F00C7A366 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF18A901259CE56F00C7A366 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF18A903259CE57000C7A366 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF18A906259CE57000C7A366 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF18A908259CE57000C7A366 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF18A90D259CE57000C7A366 /* ZilandoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZilandoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF18A911259CE57000C7A366 /* ZilandoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZilandoTests.swift; sourceTree = "<group>"; };
+		CF18A913259CE57000C7A366 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF18A918259CE57000C7A366 /* ZilandoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZilandoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF18A91C259CE57000C7A366 /* ZilandoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZilandoUITests.swift; sourceTree = "<group>"; };
+		CF18A91E259CE57000C7A366 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF18A8F4259CE56F00C7A366 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF18A90A259CE57000C7A366 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF18A915259CE57000C7A366 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF18A8EE259CE56F00C7A366 = {
+			isa = PBXGroup;
+			children = (
+				CF18A8F9259CE56F00C7A366 /* Zilando */,
+				CF18A910259CE57000C7A366 /* ZilandoTests */,
+				CF18A91B259CE57000C7A366 /* ZilandoUITests */,
+				CF18A8F8259CE56F00C7A366 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF18A8F8259CE56F00C7A366 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF18A8F7259CE56F00C7A366 /* Zilando.app */,
+				CF18A90D259CE57000C7A366 /* ZilandoTests.xctest */,
+				CF18A918259CE57000C7A366 /* ZilandoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF18A8F9259CE56F00C7A366 /* Zilando */ = {
+			isa = PBXGroup;
+			children = (
+				CF18A8FA259CE56F00C7A366 /* AppDelegate.swift */,
+				CF18A8FC259CE56F00C7A366 /* SceneDelegate.swift */,
+				CF18A8FE259CE56F00C7A366 /* ViewController.swift */,
+				CF18A900259CE56F00C7A366 /* Main.storyboard */,
+				CF18A903259CE57000C7A366 /* Assets.xcassets */,
+				CF18A905259CE57000C7A366 /* LaunchScreen.storyboard */,
+				CF18A908259CE57000C7A366 /* Info.plist */,
+			);
+			path = Zilando;
+			sourceTree = "<group>";
+		};
+		CF18A910259CE57000C7A366 /* ZilandoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF18A911259CE57000C7A366 /* ZilandoTests.swift */,
+				CF18A913259CE57000C7A366 /* Info.plist */,
+			);
+			path = ZilandoTests;
+			sourceTree = "<group>";
+		};
+		CF18A91B259CE57000C7A366 /* ZilandoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF18A91C259CE57000C7A366 /* ZilandoUITests.swift */,
+				CF18A91E259CE57000C7A366 /* Info.plist */,
+			);
+			path = ZilandoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF18A8F6259CE56F00C7A366 /* Zilando */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF18A921259CE57000C7A366 /* Build configuration list for PBXNativeTarget "Zilando" */;
+			buildPhases = (
+				CF18A8F3259CE56F00C7A366 /* Sources */,
+				CF18A8F4259CE56F00C7A366 /* Frameworks */,
+				CF18A8F5259CE56F00C7A366 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zilando;
+			productName = Zilando;
+			productReference = CF18A8F7259CE56F00C7A366 /* Zilando.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF18A90C259CE57000C7A366 /* ZilandoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF18A924259CE57000C7A366 /* Build configuration list for PBXNativeTarget "ZilandoTests" */;
+			buildPhases = (
+				CF18A909259CE57000C7A366 /* Sources */,
+				CF18A90A259CE57000C7A366 /* Frameworks */,
+				CF18A90B259CE57000C7A366 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF18A90F259CE57000C7A366 /* PBXTargetDependency */,
+			);
+			name = ZilandoTests;
+			productName = ZilandoTests;
+			productReference = CF18A90D259CE57000C7A366 /* ZilandoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF18A917259CE57000C7A366 /* ZilandoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF18A927259CE57000C7A366 /* Build configuration list for PBXNativeTarget "ZilandoUITests" */;
+			buildPhases = (
+				CF18A914259CE57000C7A366 /* Sources */,
+				CF18A915259CE57000C7A366 /* Frameworks */,
+				CF18A916259CE57000C7A366 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF18A91A259CE57000C7A366 /* PBXTargetDependency */,
+			);
+			name = ZilandoUITests;
+			productName = ZilandoUITests;
+			productReference = CF18A918259CE57000C7A366 /* ZilandoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF18A8EF259CE56F00C7A366 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					CF18A8F6259CE56F00C7A366 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					CF18A90C259CE57000C7A366 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = CF18A8F6259CE56F00C7A366;
+					};
+					CF18A917259CE57000C7A366 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = CF18A8F6259CE56F00C7A366;
+					};
+				};
+			};
+			buildConfigurationList = CF18A8F2259CE56F00C7A366 /* Build configuration list for PBXProject "Zilando" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF18A8EE259CE56F00C7A366;
+			productRefGroup = CF18A8F8259CE56F00C7A366 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF18A8F6259CE56F00C7A366 /* Zilando */,
+				CF18A90C259CE57000C7A366 /* ZilandoTests */,
+				CF18A917259CE57000C7A366 /* ZilandoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF18A8F5259CE56F00C7A366 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF18A907259CE57000C7A366 /* LaunchScreen.storyboard in Resources */,
+				CF18A904259CE57000C7A366 /* Assets.xcassets in Resources */,
+				CF18A902259CE56F00C7A366 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF18A90B259CE57000C7A366 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF18A916259CE57000C7A366 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF18A8F3259CE56F00C7A366 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF18A8FF259CE56F00C7A366 /* ViewController.swift in Sources */,
+				CF18A8FB259CE56F00C7A366 /* AppDelegate.swift in Sources */,
+				CF18A8FD259CE56F00C7A366 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF18A909259CE57000C7A366 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF18A912259CE57000C7A366 /* ZilandoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF18A914259CE57000C7A366 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF18A91D259CE57000C7A366 /* ZilandoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF18A90F259CE57000C7A366 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF18A8F6259CE56F00C7A366 /* Zilando */;
+			targetProxy = CF18A90E259CE57000C7A366 /* PBXContainerItemProxy */;
+		};
+		CF18A91A259CE57000C7A366 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF18A8F6259CE56F00C7A366 /* Zilando */;
+			targetProxy = CF18A919259CE57000C7A366 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF18A900259CE56F00C7A366 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF18A901259CE56F00C7A366 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF18A905259CE57000C7A366 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF18A906259CE57000C7A366 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF18A91F259CE57000C7A366 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF18A920259CE57000C7A366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF18A922259CE57000C7A366 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Zilando/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.letrongtriet.Zilando;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF18A923259CE57000C7A366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Zilando/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.letrongtriet.Zilando;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CF18A925259CE57000C7A366 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZilandoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.letrongtriet.ZilandoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zilando.app/Zilando";
+			};
+			name = Debug;
+		};
+		CF18A926259CE57000C7A366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZilandoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.letrongtriet.ZilandoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zilando.app/Zilando";
+			};
+			name = Release;
+		};
+		CF18A928259CE57000C7A366 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZilandoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.letrongtriet.ZilandoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Zilando;
+			};
+			name = Debug;
+		};
+		CF18A929259CE57000C7A366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZilandoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.letrongtriet.ZilandoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Zilando;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF18A8F2259CE56F00C7A366 /* Build configuration list for PBXProject "Zilando" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF18A91F259CE57000C7A366 /* Debug */,
+				CF18A920259CE57000C7A366 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF18A921259CE57000C7A366 /* Build configuration list for PBXNativeTarget "Zilando" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF18A922259CE57000C7A366 /* Debug */,
+				CF18A923259CE57000C7A366 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF18A924259CE57000C7A366 /* Build configuration list for PBXNativeTarget "ZilandoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF18A925259CE57000C7A366 /* Debug */,
+				CF18A926259CE57000C7A366 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF18A927259CE57000C7A366 /* Build configuration list for PBXNativeTarget "ZilandoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF18A928259CE57000C7A366 /* Debug */,
+				CF18A929259CE57000C7A366 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF18A8EF259CE56F00C7A366 /* Project object */;
+}
