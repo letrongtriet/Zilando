@@ -3,18 +3,35 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		CF18A8FB259CE56F00C7A366 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF18A8FA259CE56F00C7A366 /* AppDelegate.swift */; };
-		CF18A8FD259CE56F00C7A366 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF18A8FC259CE56F00C7A366 /* SceneDelegate.swift */; };
-		CF18A8FF259CE56F00C7A366 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF18A8FE259CE56F00C7A366 /* ViewController.swift */; };
-		CF18A902259CE56F00C7A366 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF18A900259CE56F00C7A366 /* Main.storyboard */; };
 		CF18A904259CE57000C7A366 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF18A903259CE57000C7A366 /* Assets.xcassets */; };
 		CF18A907259CE57000C7A366 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF18A905259CE57000C7A366 /* LaunchScreen.storyboard */; };
 		CF18A912259CE57000C7A366 /* ZilandoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF18A911259CE57000C7A366 /* ZilandoTests.swift */; };
 		CF18A91D259CE57000C7A366 /* ZilandoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF18A91C259CE57000C7A366 /* ZilandoUITests.swift */; };
+		CF18A941259CF3C000C7A366 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF18A93B259CF3C000C7A366 /* AppCoordinator.swift */; };
+		CF18A942259CF3C000C7A366 /* RootCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF18A93C259CF3C000C7A366 /* RootCoordinator.swift */; };
+		CF18A943259CF3C000C7A366 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF18A93D259CF3C000C7A366 /* Coordinator.swift */; };
+		CF18A945259CF3C000C7A366 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF18A940259CF3C000C7A366 /* UITableView+Extension.swift */; };
+		CF18A957259CF3CB00C7A366 /* ZilandoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF18A94A259CF3CB00C7A366 /* ZilandoItem.swift */; };
+		CF18A958259CF3CB00C7A366 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF18A94C259CF3CB00C7A366 /* UserDefaultsManager.swift */; };
+		CF18A959259CF3CB00C7A366 /* APIImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF18A94E259CF3CB00C7A366 /* APIImplementation.swift */; };
+		CF18A95A259CF3CB00C7A366 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF18A94F259CF3CB00C7A366 /* NetworkManager.swift */; };
+		CF18A95B259CF3CB00C7A366 /* APIDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF18A950259CF3CB00C7A366 /* APIDefinition.swift */; };
+		CF18A95C259CF3CB00C7A366 /* RootViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF18A952259CF3CB00C7A366 /* RootViewModel.swift */; };
+		CF18A95D259CF3CB00C7A366 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF18A954259CF3CB00C7A366 /* RootViewController.swift */; };
+		CF18A95E259CF3CB00C7A366 /* ZilandoItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF18A956259CF3CB00C7A366 /* ZilandoItemTableViewCell.swift */; };
+		CF18A963259CF3D100C7A366 /* AppPantry.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF18A962259CF3D100C7A366 /* AppPantry.swift */; };
+		CF18A96C259CF46A00C7A366 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = CF18A96B259CF46A00C7A366 /* SnapKit */; };
+		CF18A972259CF48200C7A366 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = CF18A971259CF48200C7A366 /* SDWebImage */; };
+		CF18A974259CF48200C7A366 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = CF18A973259CF48200C7A366 /* SDWebImageMapKit */; };
+		CF956E81259D08A50065A40C /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF956E80259D08A50065A40C /* Category.swift */; };
+		CF956E86259D0F080065A40C /* PaddingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF956E85259D0F080065A40C /* PaddingLabel.swift */; };
+		CF956E8B259D165C0065A40C /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF956E8A259D165C0065A40C /* FilterViewController.swift */; };
+		CF956E90259D17070065A40C /* FilterItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF956E8F259D17070065A40C /* FilterItemTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +54,6 @@
 /* Begin PBXFileReference section */
 		CF18A8F7259CE56F00C7A366 /* Zilando.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zilando.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF18A8FA259CE56F00C7A366 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CF18A8FC259CE56F00C7A366 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CF18A8FE259CE56F00C7A366 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CF18A901259CE56F00C7A366 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CF18A903259CE57000C7A366 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF18A906259CE57000C7A366 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF18A908259CE57000C7A366 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +63,23 @@
 		CF18A918259CE57000C7A366 /* ZilandoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZilandoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF18A91C259CE57000C7A366 /* ZilandoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZilandoUITests.swift; sourceTree = "<group>"; };
 		CF18A91E259CE57000C7A366 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF18A93B259CF3C000C7A366 /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		CF18A93C259CF3C000C7A366 /* RootCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootCoordinator.swift; sourceTree = "<group>"; };
+		CF18A93D259CF3C000C7A366 /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		CF18A940259CF3C000C7A366 /* UITableView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
+		CF18A94A259CF3CB00C7A366 /* ZilandoItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZilandoItem.swift; sourceTree = "<group>"; };
+		CF18A94C259CF3CB00C7A366 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
+		CF18A94E259CF3CB00C7A366 /* APIImplementation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIImplementation.swift; sourceTree = "<group>"; };
+		CF18A94F259CF3CB00C7A366 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		CF18A950259CF3CB00C7A366 /* APIDefinition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIDefinition.swift; sourceTree = "<group>"; };
+		CF18A952259CF3CB00C7A366 /* RootViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewModel.swift; sourceTree = "<group>"; };
+		CF18A954259CF3CB00C7A366 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		CF18A956259CF3CB00C7A366 /* ZilandoItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZilandoItemTableViewCell.swift; sourceTree = "<group>"; };
+		CF18A962259CF3D100C7A366 /* AppPantry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppPantry.swift; sourceTree = "<group>"; };
+		CF956E80259D08A50065A40C /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		CF956E85259D0F080065A40C /* PaddingLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingLabel.swift; sourceTree = "<group>"; };
+		CF956E8A259D165C0065A40C /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		CF956E8F259D17070065A40C /* FilterItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterItemTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +87,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF18A972259CF48200C7A366 /* SDWebImage in Frameworks */,
+				CF18A974259CF48200C7A366 /* SDWebImageMapKit in Frameworks */,
+				CF18A96C259CF46A00C7A366 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,9 +134,14 @@
 			isa = PBXGroup;
 			children = (
 				CF18A8FA259CE56F00C7A366 /* AppDelegate.swift */,
-				CF18A8FC259CE56F00C7A366 /* SceneDelegate.swift */,
-				CF18A8FE259CE56F00C7A366 /* ViewController.swift */,
-				CF18A900259CE56F00C7A366 /* Main.storyboard */,
+				CF18A962259CF3D100C7A366 /* AppPantry.swift */,
+				CF18A94B259CF3CB00C7A366 /* Manager */,
+				CF18A949259CF3CB00C7A366 /* Model */,
+				CF18A94D259CF3CB00C7A366 /* Network */,
+				CF18A953259CF3CB00C7A366 /* View */,
+				CF18A951259CF3CB00C7A366 /* ViewModel */,
+				CF18A93A259CF3C000C7A366 /* Coordinator */,
+				CF18A93E259CF3C000C7A366 /* Extension */,
 				CF18A903259CE57000C7A366 /* Assets.xcassets */,
 				CF18A905259CE57000C7A366 /* LaunchScreen.storyboard */,
 				CF18A908259CE57000C7A366 /* Info.plist */,
@@ -128,6 +167,95 @@
 			path = ZilandoUITests;
 			sourceTree = "<group>";
 		};
+		CF18A93A259CF3C000C7A366 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				CF18A93B259CF3C000C7A366 /* AppCoordinator.swift */,
+				CF18A93C259CF3C000C7A366 /* RootCoordinator.swift */,
+				CF18A93D259CF3C000C7A366 /* Coordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		CF18A93E259CF3C000C7A366 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CF18A940259CF3C000C7A366 /* UITableView+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		CF18A949259CF3CB00C7A366 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CF18A94A259CF3CB00C7A366 /* ZilandoItem.swift */,
+				CF956E80259D08A50065A40C /* Category.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CF18A94B259CF3CB00C7A366 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				CF18A94C259CF3CB00C7A366 /* UserDefaultsManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		CF18A94D259CF3CB00C7A366 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				CF18A94E259CF3CB00C7A366 /* APIImplementation.swift */,
+				CF18A94F259CF3CB00C7A366 /* NetworkManager.swift */,
+				CF18A950259CF3CB00C7A366 /* APIDefinition.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		CF18A951259CF3CB00C7A366 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CF18A952259CF3CB00C7A366 /* RootViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CF18A953259CF3CB00C7A366 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CF956E95259D21A60065A40C /* ViewControllers */,
+				CF956E94259D219C0065A40C /* Custom Views */,
+				CF18A955259CF3CB00C7A366 /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CF18A955259CF3CB00C7A366 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CF18A956259CF3CB00C7A366 /* ZilandoItemTableViewCell.swift */,
+				CF956E8F259D17070065A40C /* FilterItemTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		CF956E94259D219C0065A40C /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				CF956E85259D0F080065A40C /* PaddingLabel.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		CF956E95259D21A60065A40C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CF18A954259CF3CB00C7A366 /* RootViewController.swift */,
+				CF956E8A259D165C0065A40C /* FilterViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,6 +272,11 @@
 			dependencies = (
 			);
 			name = Zilando;
+			packageProductDependencies = (
+				CF18A96B259CF46A00C7A366 /* SnapKit */,
+				CF18A971259CF48200C7A366 /* SDWebImage */,
+				CF18A973259CF48200C7A366 /* SDWebImageMapKit */,
+			);
 			productName = Zilando;
 			productReference = CF18A8F7259CE56F00C7A366 /* Zilando.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +348,10 @@
 				Base,
 			);
 			mainGroup = CF18A8EE259CE56F00C7A366;
+			packageReferences = (
+				CF18A96A259CF46A00C7A366 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				CF18A970259CF48200C7A366 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = CF18A8F8259CE56F00C7A366 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,7 +370,6 @@
 			files = (
 				CF18A907259CE57000C7A366 /* LaunchScreen.storyboard in Resources */,
 				CF18A904259CE57000C7A366 /* Assets.xcassets in Resources */,
-				CF18A902259CE56F00C7A366 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +394,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF18A8FF259CE56F00C7A366 /* ViewController.swift in Sources */,
+				CF18A942259CF3C000C7A366 /* RootCoordinator.swift in Sources */,
+				CF18A95C259CF3CB00C7A366 /* RootViewModel.swift in Sources */,
+				CF18A959259CF3CB00C7A366 /* APIImplementation.swift in Sources */,
+				CF956E8B259D165C0065A40C /* FilterViewController.swift in Sources */,
+				CF18A945259CF3C000C7A366 /* UITableView+Extension.swift in Sources */,
+				CF956E86259D0F080065A40C /* PaddingLabel.swift in Sources */,
+				CF956E90259D17070065A40C /* FilterItemTableViewCell.swift in Sources */,
+				CF18A95A259CF3CB00C7A366 /* NetworkManager.swift in Sources */,
+				CF18A95B259CF3CB00C7A366 /* APIDefinition.swift in Sources */,
+				CF18A941259CF3C000C7A366 /* AppCoordinator.swift in Sources */,
+				CF18A957259CF3CB00C7A366 /* ZilandoItem.swift in Sources */,
+				CF18A963259CF3D100C7A366 /* AppPantry.swift in Sources */,
+				CF18A958259CF3CB00C7A366 /* UserDefaultsManager.swift in Sources */,
+				CF18A95E259CF3CB00C7A366 /* ZilandoItemTableViewCell.swift in Sources */,
+				CF956E81259D08A50065A40C /* Category.swift in Sources */,
+				CF18A95D259CF3CB00C7A366 /* RootViewController.swift in Sources */,
+				CF18A943259CF3C000C7A366 /* Coordinator.swift in Sources */,
 				CF18A8FB259CE56F00C7A366 /* AppDelegate.swift in Sources */,
-				CF18A8FD259CE56F00C7A366 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +447,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CF18A900259CE56F00C7A366 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CF18A901259CE56F00C7A366 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CF18A905259CE57000C7A366 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -366,7 +509,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +564,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -438,6 +581,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Zilando/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -445,7 +589,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.letrongtriet.Zilando;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -456,6 +600,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Zilando/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -463,7 +608,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.letrongtriet.Zilando;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -587,6 +732,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CF18A96A259CF46A00C7A366 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+		CF18A970259CF48200C7A366 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CF18A96B259CF46A00C7A366 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CF18A96A259CF46A00C7A366 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		CF18A971259CF48200C7A366 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CF18A970259CF48200C7A366 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		CF18A973259CF48200C7A366 /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CF18A970259CF48200C7A366 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CF18A8EF259CE56F00C7A366 /* Project object */;
 }
