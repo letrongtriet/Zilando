@@ -1,4 +1,4 @@
-# Restaurant List App
+# Zilando
 
 ## Demo
 ![](Demo.gif)
